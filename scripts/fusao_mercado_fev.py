@@ -70,10 +70,12 @@ from processamento_dados import Dados
 #         writer = csv.writer(file)
 #         writer.writerows(dados)
 
+```
 path_json = 'data_raw/dados_empresaA.json'
 path_csv = 'data_raw/dados_empresaB.csv'
+```
 
-#Extract
+## Extract
 
 dados_empresaA = Dados.leitura_dados(path_json, 'json')
 print(dados_empresaA.nome_colunas)
